@@ -1,3 +1,19 @@
+---
+title: 'about'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'about/'
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/about.css">
+{% endblock %}
+
+{% block body %}
+
+
 <!-- ============================================ -->
 <!--                   Banner                     -->
 <!-- ============================================ -->
@@ -7,16 +23,16 @@
         <picture class="cs-picture">
             <img class="cs-icon" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ffancy-divider.svg" alt="divider" width="181" height="36" aria-hidden="true">
         </picture>
-        <span class="cs-int-title">About Stitch Restaurant</span>
+        <span class="cs-int-title">About Root <br> Design & Develop</span>
         <p class="cs-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. -->
         </p>
     </div>
     <!--Background Image-->
     <picture class="cs-background">
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FMISC%2Ftable.jpg">
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FMISC%2Ftable.jpg">
-        <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FMISC%2Ftable.jpg" alt="breakfast" width="1920" height="1000">
+        <source media="(max-width: 600px)" srcset="https://images.unsplash.com/photo-1565772838491-cbeb32fac6ca?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <source media="(min-width: 601px)" srcset="https://images.unsplash.com/photo-1565772838491-cbeb32fac6ca?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img decoding="async" src="https://images.unsplash.com/photo-1565772838491-cbeb32fac6ca?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="breakfast" width="1920" height="1000">
     </picture>
 </div>   
 
@@ -29,32 +45,38 @@
         <!-- Left Image Section -->
         <div class="cs-image-group">
             <picture class="cs-picture cs-picture1">
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/breakfast1.jpg">
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/breakfast1.jpg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/breakfast1.jpg" alt="breakfast" width="522" height="581" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="https://images.unsplash.com/photo-1497942304796-b8bc2cc898f3?q=80&w=3869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                <source media="(min-width: 601px)" srcset="https://images.unsplash.com/photo-1497942304796-b8bc2cc898f3?q=80&w=3869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1497942304796-b8bc2cc898f3?q=80&w=3869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="breakfast" width="522" height="581" aria-hidden="true">
             </picture>
             <picture class="cs-picture cs-picture2">
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/breakfast2.jpg">
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/breakfast2.jpg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/breakfast2.jpg" alt="breakfast" width="414" height="400" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="https://i.ibb.co/ypNY7qf/IMG-5218.webp">
+                <source media="(min-width: 601px)" srcset="https://i.ibb.co/ypNY7qf/IMG-5218.webp">
+                <img loading="lazy" decoding="async" src="https://i.ibb.co/ypNY7qf/IMG-5218.webp" alt="breakfast" width="414" height="400" aria-hidden="true">
             </picture>
         </div>
         <!-- Right Content Section-->
         <div class="cs-content">
             <span class="cs-topper">About Us</span>
-            <h2 class="cs-title">About Stitch Food</h2>
+            <h2 class="cs-title">Meet Craig</h2>
             <p class="cs-text">
-                In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-            </p>
-            <p class="cs-text">
-                In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-            </p>
+                Hey there - I'm Craig, the owner and operator of Root Design & Develop. I'm a web designer and developer based in Indianapolis, Indiana. I've been building websites for a couple of years - before that I owned and operated a couple of businesses with my wife. I'm passionate about helping small businesses and individuals build their online presence. I believe that a website is a powerful tool that can help you grow your business and reach your goals. I'm here to help you do that.
+              </p>
+              <p class="cs-text">
+               I have discovered that many small businesses and individuals are intimidated by the idea of building a website. I was one of them! We either decide to use a page builder to save money or are forced to spend thousands up front to have a site built. Those two options land at the far ends of a spectrum, and I'm hopeful that I can help bridge that gap. I'll work with you to build a website that you love and that will help you reach your goals. I'll take care of the technical stuff so you can focus on what you do best. I'll be here to answer any questions you have along the way. And I'll do that at a price that won't break the bank.
+              </p>
+              <!-- <p class="cs-text">
+                  Root -- is a meaningful word for me and my family. It's a reminder of where we come from and where we're going. It's a reminder of the importance of family and community. It's a reminder of the importance of being connected to the earth and the world around us. It's a reminder of the importance of being connected to our past and what sustains us today. And, it harkens back to a couple of the businesses we have owned in the past, Wildwood Market and Blooms - both of which were rooted in our community. 
+                  </p> -->
+              <p class="cs-text">
+                 In my time away from building websites, I enjoy spending time with my wife and daughter, cooking, and being outside. I love that this job allows me to work with people from all over while still being able to spend time with my family.
+                 </p>
             <div class="cs-quote">
                 <span class="cs-quote-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
+                    I'd love the opportunity to work with you and to help tell the story of your business while we also attract new clients or customers! Please don't hesitate to reach out!
                 </span>
-                <span class="cs-name">Justin Time</span>
-                <span class="cs-job">CEO-Founder</span>
+                <span class="cs-name">Craig Sanders</span>
+                <span class="cs-job"></span>
                 <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
             </div>
         </div>
@@ -68,25 +90,28 @@
 <section id="cta-1014">
     <div class="cs-container">
         <div class="cs-left-section">
-            <h2 class="cs-title">Come See Us For Breakfast!</h2>
-            <a href="" class="cs-button-solid">Request Appointment</a>
+            <h2 class="cs-title">Still Have Questions?</h2>
+            <a href="" class="cs-button-solid">Book a consult!</a>
         </div>
         <div class="cs-content">
             <span class="cs-header">Available Hours</span>
             <p class="cs-p"> 
-                Tuesday, Thursday, Friday: 9am-6pm<br>
-                ​(closed for lunch 12pm-2pm)
+                Tuesday, Thursday, Friday: 9am-2pm<br>
+                Or by appointment
+               
             </p>
             <p class="cs-p">
-                Appointments Preferred, Walk-Ins Welcome.<br>
-                Saturdays by Appointment Only.
+                
             </p>
         </div>
         <picture class="cs-background">
-            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/breakfast3.jpg">
-            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/breakfast3.jpg">
-            <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/breakfast3.jpg" alt="breakfast" width="275" height="132">
+            <source media="(max-width: 600px)" srcset="https://images.unsplash.com/photo-1593096966468-c7869f66def9?q=80&w=3869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <source media="(min-width: 601px)" srcset="https://images.unsplash.com/photo-1593096966468-c7869f66def9?q=80&w=3869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1593096966468-c7869f66def9?q=80&w=3869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="breakfast" width="275" height="132">
         </picture>
     </div>
 </section>
                                 
+   
+
+{% endblock %}
