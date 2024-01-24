@@ -470,7 +470,7 @@
             img {
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
+                // object-fit: cover;
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -478,18 +478,21 @@
         }
 
         .cs-picture1 {
-            width: (323/16em);
-            height: (447/16em);
+            
+            width: (600/16em);
+            height: (600/16em);
             top: 0;
             right: 0;
-            z-index: 10;
+            z-index: 20;
+            overflow: visible;
         }
 
         .cs-picture2 {
+            display: none;
             width: (305/16em);
             height: (441/16em);
-            bottom: 0;
-            left: 0;
+            bottom: -300;
+            left: -20;
         }
 
         .cs-stripes {
