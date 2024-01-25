@@ -10,7 +10,6 @@
     padding: clamp(7.25rem, 16.82vw, 10.25rem) 16/16rem clamp(3.75rem, 7.82vw, 6.25rem);
     background-color: #f7f7f7;
     /* clips the svg wave from overflowing */
-    overflow: hidden;
     position: relative;
     z-index: 1;
   }
@@ -90,7 +89,7 @@
     position: absolute;
     height: 100%;
     width: 0%;
-    background: #303554;
+    background: #010312;
     opacity: 1;
     top: 0;
     left: 0;
@@ -103,7 +102,7 @@
   }
   #hero-855 .cs-picture {
     width: 100%;
-    max-width: 35.625rem;
+    max-width: 37.5rem;
     /* 400px - 712px */
     height: clamp(25rem, 95vw, 44.5rem);
     /* 100px - 200px */
@@ -124,7 +123,6 @@
     /* makes image act as a background image */
     object-fit: cover;
     /* ensures the top of the images is at the top of the container, no heads getting cut off */
-    object-position: top;
   }
   #hero-855 .cs-wave {
     /* we're stretching the svg wider than the viewport so it's taller and has more of a presence */
