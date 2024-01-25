@@ -31,3 +31,12 @@ for (const item of dropDowns) {
 	};
 	item.addEventListener('click', onClick);
 }
+
+window.addEventListener('scroll', function() {
+    const nav = document.getElementById('cs-navigation');
+    if (window.pageYOffset > 60) {
+        nav.classList.add('hidden');
+    } else {
+        nav.classList.remove('hidden');
+    }
+});
