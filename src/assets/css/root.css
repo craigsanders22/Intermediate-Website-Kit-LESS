@@ -16,7 +16,7 @@
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
     --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
-    --bodyFontSize: 1rem;
+    --bodyFontSize: 0.9rem;
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
   }
@@ -189,7 +189,7 @@
   body,
   html {
     font-family: "fira sans", Arial, sans-serif;
-    font-size: 100%;
+    font-size: 90%;
     margin: 0;
     padding: 0;
     color: var(--bodyTextColor);
@@ -217,7 +217,7 @@
   h5,
   h6 {
     font-family: "playfair display", Arial, sans-serif;
-    font-size: 100%;
+    font-size: 90%;
     overflow-x: hidden;
     margin: 0;
     color: var(--headerColor);
