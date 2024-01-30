@@ -549,7 +549,7 @@
     filter: grayscale(1) brightness(1000%);
   }
   body.dark-mode #cs-navigation .cs-toggle {
-    background-color: var(--secondary);
+    background-color: var(--primaryLight);
   }
   body.dark-mode #cs-navigation .cs-phone {
     color: var(--bodyTextColorWhite);
@@ -797,10 +797,11 @@
     filter: grayscale(1) brightness(10005);
   }
   body.dark-mode #cs-navigation .cs-li-link.cs-active {
-    color: var(--secondary);
+    color: var(--primaryLight);
   }
   body.dark-mode #cs-navigation .cs-li-link:hover {
-    color: var(--secondary);
+    color: var(--primary);
+    box-shadow: inset 0 -2px 0 0 var(--primary);
   }
 }
 /*-- -------------------------- -->
