@@ -1,14 +1,19 @@
 ---
 title: 'Contact'
 description: 'An easy contact form'
-preloadImg: ''
+preloadImg: 'https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/clipboard-orange.svg'
 permalink: 'postcard/'
 eleventyNavigation:
     key: Postcard
     order: 500
 ---
-
 {% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/postcard.css">
+{% endblock %}
+
+{% block body %}
 <!-- ============================================ -->
 <!--                   Contact                    -->
 <!-- ============================================ -->
@@ -23,7 +28,7 @@ eleventyNavigation:
                 We are thrilled to hear from you and learn about your project needs.
             </h3>
             <!--Form-->
-            <form class="cs-form" id="cs-form-1268" name="Contact Form" method="post">
+            <form class="cs-form" id="cs-form-1268" name="Contact Form" method="post" data-netlify="true">
                 <label class="cs-label">
                     Name
                     <input class="cs-input" required type="text" id="name-1268" name="name" placeholder="Name">
@@ -37,18 +42,18 @@ eleventyNavigation:
                     <input class="cs-input" required type="phone" id="phone-1268" name="phone" placeholder="Phone">
                 </label>
                 <label class="cs-label">
-                    Message
+                    Message (optional)
                     <textarea class="cs-input cs-textarea" required name="Message" id="message-1268" placeholder="Write message..."></textarea>
                 </label>
-                <button class="cs-button-solid cs-submit" type="submit">Make an Appointment</button>
+                <button class="cs-button-solid cs-submit" type="submit">Submit</button>
             </form>
         </div>
         <div class="cs-wrapper">
             <div class="cs-content">
                 <span class="cs-topper">Contact us</span>
-                <h2 class="cs-title">Contact Us for Your Construction Needs</h2>
+                <h2 class="cs-title">Contact Us for Your Digital Needs</h2>
                 <p class="cs-text">
-                    Fill out our construction contact form and let us know about your project needs. Our team of experts will get back to you within 24-48 hours to discuss your project details and provide you with a customized quote.
+                    Fill out our contact form and let us know about what you are looking for (if you'd like). We will get back to you within 24-48 hours to discuss details and outline next steps.
                 </p>
             </div>
             <!--Background image on mobile. We have to wrap the content in a wrpper div so we can place the image in the HTML as its background. It's better to insert images on your site in the HTML than the CSS as a background because it improves performance and load times being in the HTML.-->
@@ -63,6 +68,6 @@ eleventyNavigation:
         </div>
     </div>
 </section>
-{% include 'components/cta.html' %}
+
 
 {% endblock %}

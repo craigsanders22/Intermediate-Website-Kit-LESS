@@ -7,6 +7,8 @@
   #contact-1268 {
     overflow: hidden;
     position: relative;
+    padding-top: 200px;
+    padding-bottom: 100px;
     z-index: 1;
   }
   #contact-1268 .cs-container {
@@ -22,7 +24,7 @@
     /* set text align to left if content needs to be left aligned */
     text-align: center;
     width: 100%;
-    padding: var(--sectionPadding);
+    padding: 200px 50px;
     /* prevents padding and border from affecting height and width */
     box-sizing: border-box;
     display: flex;
@@ -37,7 +39,6 @@
     max-width: 44rem;
     /* resets to 0 at tablet */
     margin: auto;
-    padding: var(--sectionPadding);
     /* prevents padding and border from affecting height and width */
     box-sizing: border-box;
     display: flex;
@@ -60,6 +61,7 @@
     font-weight: 700;
     text-align: left;
     max-width: 32.625rem;
+    padding-top: 200px;
     margin: 0 auto 2rem 0;
     color: var(--headerColor);
     display: flex;
