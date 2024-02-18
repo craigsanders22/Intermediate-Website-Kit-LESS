@@ -496,7 +496,7 @@
     width: 100%;
   }
   #sbsr-1007 .cs-image-group {
-    width: 100%;
+    width: 60%;
   }
   #sbsr-1007 .cs-picture {
     width: 100%;
@@ -814,6 +814,9 @@
     /* 48px - 64px */
     gap: clamp(3rem, 6vw, 4rem);
   }
+  #pricing-1319 .cs-popular {
+    order: -1;
+  }
   #pricing-1319 .cs-content {
     /* set text align to left if content needs to be left aligned */
     text-align: center;
@@ -1066,6 +1069,9 @@
     margin-bottom: 4.5rem;
     flex-direction: row;
     align-items: stretch;
+  }
+  #pricing-1319 .cs-container .cs-popular {
+    order: 0;
   }
   #pricing-1319 .cs-container .cs-item:nth-of-type(2) {
     transform: translateY(-1.5rem);
