@@ -1,8 +1,8 @@
 ---
-title: Canitiem Saxa
-description: Lorem markdownum trabeati dicere deus.
-author: Code Stitch
-date: 2023-06-08T15:28:08.486Z
+title: Cultivating Success with StoryBrand 
+description: How Small Farmers Can Grow Their Business with Donald Miller's StoryBrand Strategy
+author: Craig Sanders
+date: 2024-01-12 T15:28:08.486Z
 tags:
     - post
     - featured
