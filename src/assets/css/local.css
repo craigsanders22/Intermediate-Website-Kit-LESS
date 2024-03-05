@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: center;
     /* 48px - 64px */
-    gap: clamp(3rem, 6vw, 4rem);
+    gap: clamp(2rem, 4vw, 3rem);
   }
   #services-1629 .cs-content {
     /* set text align to left if content needs to be left aligned */
@@ -29,8 +29,13 @@
     align-items: flex-start;
   }
   #services-1629 .cs-title {
-    max-width: 40ch;
+    max-width: 50ch;
     color: var(--primary);
+  }
+  #services-1629 .cs-title-march {
+    font-size: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    color: #92c3be;
+    font-weight: 700;
   }
   #services-1629 .cs-text {
     max-width: 60ch;
