@@ -22,7 +22,7 @@
     align-items: center;
     flex-direction: column;
     gap: 3rem;
-    margin-top: 200px;
+    padding-top: 200px;
   }
   #hero-855 .cs-content {
     max-width: 39.375rem;
@@ -144,7 +144,7 @@
   #hero-855 .cs-container {
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 100px;
+    padding-top: 100px;
   }
   #hero-855 .cs-content {
     width: 40vw;
