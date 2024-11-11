@@ -40,7 +40,7 @@
 
     .cs-title {
         font-size: var(--headerFontSize);
-        font-weight: 900;
+        font-weight: 700;
         line-height: 1.2em;
         margin-bottom: .5rem;
         color: var(--headerColor);
@@ -150,7 +150,23 @@
     src: url('../fonts/neuton-v22-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 
-
+/* amatic-sc-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/amatic-sc-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* amatic-sc-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/amatic-sc-v26-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
 
     // /* roboto-regular - latin */
     // @font-face {
@@ -190,7 +206,7 @@
     body,
     html {
         font-family: "Lato", Arial, sans-serif;
-        font-size: 120%;
+        font-size: 100%;
         margin: 0;
         padding: 0;
         color: var(--bodyTextColor);
@@ -221,7 +237,9 @@
     h4,
     h5,
     h6 {
+        font-family: "amatic sc", Arial, sans-serif; 
         margin: 0;
+        font-weight: 700;
         color: var(--headerColor);
     }
 
@@ -891,7 +909,7 @@ html {
         }
 
         h1 {
-            font-size: (64/30rem);
+            font-size: (96/30rem);
             text-align: center;
             width: 96%;
             max-width: (500/16rem);
@@ -900,6 +918,7 @@ html {
             margin-bottom: (30/16rem);
             color: #fff;
             position: relative;
+            font-weight: 700;
         }
 
         p {
